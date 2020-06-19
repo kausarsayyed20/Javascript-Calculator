@@ -1,0 +1,106 @@
+body{
+  font-family:'Open sans',sans-serif;
+  background-color:white;
+
+  margin-top: 50px;
+}
+
+
+#calculator
+{
+
+  background-color:black;
+ padding-top: 15px;
+
+   margin: 0 auto;
+
+  width:320px;
+  height:520px;
+  border-radius: 30px;
+ //background-color: #eaedef;
+ box-shadow: 0px 1px 20px 10px #888888;
+
+}
+
+#result{
+  height: 70px;
+  
+
+}
+
+#out{
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-top: 10px;
+  text-align: right;
+  height: 60px;
+  margin:10px 20px;
+  font-size: 35;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+background-color:#8FBC8F;     
+}
+
+
+#numbers{
+  height: 400px;
+}
+
+
+.oper,.num
+{
+  cursor:pointer;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float:left;
+    border-radius: 10px;
+    border-width: 1px;
+    font-weight: bold;
+    font-size:20px;
+    box-shadow: 0px 1px 1px 1px #888888;
+    border: none;
+    color: #333333 !important;
+    transition:; 
+
+
+}
+
+#clear{
+  width: 130px;
+  font-size: 20;
+  color: white;
+  background-color:#FF6347 ;
+  box-shadow: 0px 1px 1px 1px #888888;
+}
+
+.num
+{
+  background-color: #888888;
+  box-shadow: 0px 1px 10px 0px #888888;
+
+}
+#equals{
+  width: 130px;
+  background-color: #888888;
+}
+
+
+.num:focus{
+  background-color: #999999;
+  outline: 0;
+}
+
+.oper:focus{
+  background-color:#F8F8FF ;
+  outline: 0;
+}
+
+#clear:focus{
+  background-color: #FF6347;
+ 
+}
+#equals:focus{
+    background-color: #999999;
+}
