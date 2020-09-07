@@ -1,7 +1,7 @@
 # Javascript-Calculator
 Basic calculator using HTML, CSS and Javascript.
 
-<div style="text-align:center"><img src="![calculator - Copy](https://user-images.githubusercontent.com/36737476/85176939-9c94ec00-b298-11ea-9db0-76838bc9139e.PNG)" /></div>
+![calculator - Copy](https://user-images.githubusercontent.com/36737476/85176939-9c94ec00-b298-11ea-9db0-76838bc9139e.PNG)"
 
 
 **Button AC:**
